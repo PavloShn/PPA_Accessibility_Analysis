@@ -8,8 +8,6 @@ Skrypt pobiera granice administracyjne PRG, wybiera powiaty z gminami wiejskimi 
 
 ## Dane do pobrania
 1. BDOT10k (pobrać ręcznie, link: https://opendata.geoportal.gov.pl/bdot10k/schemat2021/SHP/06/06_SHP.ZIP)
-2. Rozpakować ten zip do pliku 06_SHP w folderze Dane_PPA_Projekt_Zaliczeniowy
-3. 
 
 ## Jak uruchomić
 1. Pobierz dane BDOT10k:
