@@ -7,7 +7,7 @@ Analiza dostępności punktów usługowych (kościół, przystanki autobusowe, .
 Skrypt pobiera granice administracyjne PRG, wybiera powiaty z gminami wiejskimi i konwertuje dane BDOT10k do geobazy.
 
 ## Dane do pobrania
-1. BDOT10k (pobrać ręcznie, link: https://opendata.geoportal.gov.pl/bdot10k/schemat2021/SHP/06/06_SHP.ZIP)
+1. BDOT10k (pobrać ręcznie, link: https://umcso365-my.sharepoint.com/:u:/g/personal/320172_office_umcs_pl/IQAZmC5ah5M3RZYOkS0wMkQcAfIzgg8-pLM08M2tRQEbgrU?e=qksgeL)
 
 ## Jak uruchomić
 1. Pobierz dane BDOT10k:
