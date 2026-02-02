@@ -1,0 +1,30 @@
+Create Network Dataset:
+
+Target Feature Dataset -> Transport_FD
+Network Dataset Name -> Drogi_ND
+Source Feature Class -> Drogi_all_FD
+Elevation Model -> No elevations
+
+PPM -> Build Network
+
+Do Drogi_ND:
+W Travel Attributes:
+Costs:
+
+Dodajemy Costs:
+Name -> TIME_MIN
+Units -> Minutes
+Data Type -> Double
+
+W Evaluators:
+Edges:
+Drogi_all_FD (Along) -> Type: Field Script -> Value: !TIME_MIN!
+Drogi_all_FD (Against) -> Type: Same as Along -> Value: !TIME_MIN!
+
+W Travel Mode:
+New:
+Nazwa -> TIME_MIN
+Type -> Walking
+Impendance -> TIME_MIN
+
+I ponownie wykonujemy Build Network
